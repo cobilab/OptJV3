@@ -777,17 +777,10 @@ For meaningful comparisons:
 
 ## 📚 Citation
 
-If you use OptJV3 in academic or technical work, cite the repository and include the exact commit hash, command line, input dataset, build target, and best parameter string used for the reported result.
-
-Example:
+If you use OptJV3 in academic or technical work, please cite
 
 ```text
-OptJV3 genetic optimizer for JARVIS3 parameter search.
-Repository: <repository-url>
-Commit: <commit-hash>
-Build: make release
-Command: <full OptJV3 command>
-Best parameters: <params line from best.txt>
+Ferrolho, Rita, Armando J. Pinho, and Diogo Pratas. "Optimizing Genomic Data Compression with Genetic Algorithms." bioRxiv (2025): 2025-10.
 ```
 
 ---
@@ -806,11 +799,5 @@ GPL-3.0-only
 
 ---
 
-## 🙏 Acknowledgements
 
-OptJV3 was developed to automate parameter exploration for JARVIS3 compression experiments, especially where exhaustive search is infeasible because of a large mixed discrete/continuous parameter space.
-Please, cite
-```
-Ferrolho, Rita, Armando J. Pinho, and Diogo Pratas. "Optimizing Genomic Data Compression with Genetic Algorithms." bioRxiv (2025): 2025-10.
-```
 
