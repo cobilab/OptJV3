@@ -809,4 +809,8 @@ GPL-3.0-only
 ## 🙏 Acknowledgements
 
 OptJV3 was developed to automate parameter exploration for JARVIS3 compression experiments, especially where exhaustive search is infeasible because of a large mixed discrete/continuous parameter space.
+Please, cite
+```
+Ferrolho, Rita, Armando J. Pinho, and Diogo Pratas. "Optimizing Genomic Data Compression with Genetic Algorithms." bioRxiv (2025): 2025-10.
+```
 
