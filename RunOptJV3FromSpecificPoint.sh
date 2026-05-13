@@ -1,0 +1,3 @@
+#!/bin/bash
+#
+./OptJV3 --jarvis ./JARVIS3 --input cy_sample --population 100 --generations 100 --threads 8 --elite 4 --tournament 3 --crossover 0.80 --mutation 0.12 --toggle 0.08 --objective bytes --max-cmodels 3 --min-cmodels 2 --max-rmodels 2 --min-rmodels 1 --global-bounds "hs=8:32,lr=0.0:0.0,seed=1:1000" --cm-bounds "ctx=1:13,den=1:500,ir=0:2,gamma=0.01:0.99,edits=0:3,eden=1:50,eir=0:1,egamma=0.01:0.99" --rm-bounds "nr=1:20,ctx=11:13,beta=0.01:0.99,limit=1:20,gamma=0.01:0.99,ir=0:1,weight=0.01:0.99,cache=1:4" --best-out best.txt --history-out history.csv --restart-from "./JARVIS3 -hs 21 -lr 0.000 -sd 17 -cm 4:437:1:0.864/0:32:1:0.347 -cm 13:97:1:0.872/1:12:0:0.880 -rm 17:11:0.933:3:0.631:0:0.059:2 -rm 18:11:0.738:3:0.428:1:0.010:1"
