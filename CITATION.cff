@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+
+message: "If you use OptJV3 in your research, please cite the software and the associated publication."
+
+title: "OptJV3: A Genetic Algorithm Optimizer for JARVIS3"
+type: software
+version: 1.0.0
+date-released: 2026-09-18
+
+authors:
+  - family-names: "Ferrolho"
+    given-names: "Rita"
+
+  - family-names: "Pinho"
+    given-names: "Armando J."
+
+  - family-names: "Pratas"
+    given-names: "Diogo"
+
+abstract: "OptJV3 is a thread-parallel genetic algorithm optimizer for discovering high-performing JARVIS3 compression parameter sets. It searches over global mixer parameters, context models, and repeat models to optimize lossless compression performance."
+
+keywords:
+  - genomic data compression
+  - lossless compression
+  - genetic algorithms
+  - bioinformatics
+  - JARVIS3
+  - optimization
+
+license: GPL-3.0-only
+
+repository-code: "https://github.com/cobilab/OptJV3"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Ferrolho"
+      given-names: "Rita"
+
+    - family-names: "Pinho"
+      given-names: "Armando J."
+
+    - family-names: "Pratas"
+      given-names: "Diogo"
+
+  title: "Optimizing Genomic Data Compression with Genetic Algorithms"
+  journal: "bioRxiv"
+  year: 2025
+  doi: "10.1101/2025.10.23.684090"
